@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		291FC213208FBBD600A7C549 /* scene kit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "scene kit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		291FC213208FBBD600A7C549 /* chapter 1-3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "chapter 1-3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		291FC216208FBBD600A7C549 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		291FC218208FBBD600A7C549 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		291FC21B208FBBD600A7C549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		291FC21D208FBBD700A7C549 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		291FC220208FBBD700A7C549 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		291FC222208FBBD700A7C549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		291FC227208FBBD700A7C549 /* scene kitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "scene kitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		291FC227208FBBD700A7C549 /* chapter 1-3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "chapter 1-3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		291FC22B208FBBD700A7C549 /* scene_kitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scene_kitTests.swift; sourceTree = "<group>"; };
 		291FC22D208FBBD700A7C549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		291FC232208FBBD700A7C549 /* scene kitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "scene kitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		291FC232208FBBD700A7C549 /* chapter 1-3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "chapter 1-3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		291FC236208FBBD700A7C549 /* scene_kitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scene_kitUITests.swift; sourceTree = "<group>"; };
 		291FC238208FBBD700A7C549 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +87,9 @@
 		291FC214208FBBD600A7C549 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				291FC213208FBBD600A7C549 /* scene kit.app */,
-				291FC227208FBBD700A7C549 /* scene kitTests.xctest */,
-				291FC232208FBBD700A7C549 /* scene kitUITests.xctest */,
+				291FC213208FBBD600A7C549 /* chapter 1-3.app */,
+				291FC227208FBBD700A7C549 /* chapter 1-3Tests.xctest */,
+				291FC232208FBBD700A7C549 /* chapter 1-3UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		291FC212208FBBD500A7C549 /* scene kit */ = {
+		291FC212208FBBD500A7C549 /* chapter 1-3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 291FC23B208FBBD700A7C549 /* Build configuration list for PBXNativeTarget "scene kit" */;
+			buildConfigurationList = 291FC23B208FBBD700A7C549 /* Build configuration list for PBXNativeTarget "chapter 1-3" */;
 			buildPhases = (
 				291FC20F208FBBD500A7C549 /* Sources */,
 				291FC210208FBBD500A7C549 /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = "scene kit";
+			name = "chapter 1-3";
 			productName = "scene kit";
-			productReference = 291FC213208FBBD600A7C549 /* scene kit.app */;
+			productReference = 291FC213208FBBD600A7C549 /* chapter 1-3.app */;
 			productType = "com.apple.product-type.application";
 		};
-		291FC226208FBBD700A7C549 /* scene kitTests */ = {
+		291FC226208FBBD700A7C549 /* chapter 1-3Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 291FC23E208FBBD700A7C549 /* Build configuration list for PBXNativeTarget "scene kitTests" */;
+			buildConfigurationList = 291FC23E208FBBD700A7C549 /* Build configuration list for PBXNativeTarget "chapter 1-3Tests" */;
 			buildPhases = (
 				291FC223208FBBD700A7C549 /* Sources */,
 				291FC224208FBBD700A7C549 /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				291FC229208FBBD700A7C549 /* PBXTargetDependency */,
 			);
-			name = "scene kitTests";
+			name = "chapter 1-3Tests";
 			productName = "scene kitTests";
-			productReference = 291FC227208FBBD700A7C549 /* scene kitTests.xctest */;
+			productReference = 291FC227208FBBD700A7C549 /* chapter 1-3Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		291FC231208FBBD700A7C549 /* scene kitUITests */ = {
+		291FC231208FBBD700A7C549 /* chapter 1-3UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 291FC241208FBBD700A7C549 /* Build configuration list for PBXNativeTarget "scene kitUITests" */;
+			buildConfigurationList = 291FC241208FBBD700A7C549 /* Build configuration list for PBXNativeTarget "chapter 1-3UITests" */;
 			buildPhases = (
 				291FC22E208FBBD700A7C549 /* Sources */,
 				291FC22F208FBBD700A7C549 /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				291FC234208FBBD700A7C549 /* PBXTargetDependency */,
 			);
-			name = "scene kitUITests";
+			name = "chapter 1-3UITests";
 			productName = "scene kitUITests";
-			productReference = 291FC232208FBBD700A7C549 /* scene kitUITests.xctest */;
+			productReference = 291FC232208FBBD700A7C549 /* chapter 1-3UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 291FC20E208FBBD500A7C549 /* Build configuration list for PBXProject "scene kit" */;
+			buildConfigurationList = 291FC20E208FBBD500A7C549 /* Build configuration list for PBXProject "chapter 1-3" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -217,9 +217,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				291FC212208FBBD500A7C549 /* scene kit */,
-				291FC226208FBBD700A7C549 /* scene kitTests */,
-				291FC231208FBBD700A7C549 /* scene kitUITests */,
+				291FC212208FBBD500A7C549 /* chapter 1-3 */,
+				291FC226208FBBD700A7C549 /* chapter 1-3Tests */,
+				291FC231208FBBD700A7C549 /* chapter 1-3UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -282,12 +282,12 @@
 /* Begin PBXTargetDependency section */
 		291FC229208FBBD700A7C549 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 291FC212208FBBD500A7C549 /* scene kit */;
+			target = 291FC212208FBBD500A7C549 /* chapter 1-3 */;
 			targetProxy = 291FC228208FBBD700A7C549 /* PBXContainerItemProxy */;
 		};
 		291FC234208FBBD700A7C549 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 291FC212208FBBD500A7C549 /* scene kit */;
+			target = 291FC212208FBBD500A7C549 /* chapter 1-3 */;
 			targetProxy = 291FC233208FBBD700A7C549 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -476,7 +476,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/scene kit.app/scene kit";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chapter 1-3.app/chapter 1-3";
 			};
 			name = Debug;
 		};
@@ -496,7 +496,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/scene kit.app/scene kit";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chapter 1-3.app/chapter 1-3";
 			};
 			name = Release;
 		};
@@ -541,7 +541,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		291FC20E208FBBD500A7C549 /* Build configuration list for PBXProject "scene kit" */ = {
+		291FC20E208FBBD500A7C549 /* Build configuration list for PBXProject "chapter 1-3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				291FC239208FBBD700A7C549 /* Debug */,
@@ -550,7 +550,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		291FC23B208FBBD700A7C549 /* Build configuration list for PBXNativeTarget "scene kit" */ = {
+		291FC23B208FBBD700A7C549 /* Build configuration list for PBXNativeTarget "chapter 1-3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				291FC23C208FBBD700A7C549 /* Debug */,
@@ -559,7 +559,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		291FC23E208FBBD700A7C549 /* Build configuration list for PBXNativeTarget "scene kitTests" */ = {
+		291FC23E208FBBD700A7C549 /* Build configuration list for PBXNativeTarget "chapter 1-3Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				291FC23F208FBBD700A7C549 /* Debug */,
@@ -568,7 +568,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		291FC241208FBBD700A7C549 /* Build configuration list for PBXNativeTarget "scene kitUITests" */ = {
+		291FC241208FBBD700A7C549 /* Build configuration list for PBXNativeTarget "chapter 1-3UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				291FC242208FBBD700A7C549 /* Debug */,
